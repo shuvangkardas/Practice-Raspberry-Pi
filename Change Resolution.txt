@@ -1,0 +1,11 @@
+run terminal and type
+
+sudo raspi-config
+Go to: >Advanced Option > Resolution > just set your resolution compatible fit with your screen.
+
+then
+
+reboot
+If you didn't found the menu on configuration, please update your raspberry pi software configuration tool (raspi-config).
+
+That's all TQ.
