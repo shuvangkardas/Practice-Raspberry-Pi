@@ -15,10 +15,26 @@ WiringPi is a GPIO access library for the Raspberry Pi. Written in C, it is usab
 It supports a similar API to the Wiring IDE supported on Arduino microcontrollers, making it easier to port hardware control code between the Raspberry Pi and Arduino platforms.
 
 ### WiringPi
-- To install WiringPI in raspberry pi 
+#### Installation
+1. Easy method
+```
+sudo apt-get install wiringpi
+```
+2. build fro source
 ```
 git clone git://git.drogon.net/wiringPi
 cd wiringPi
 git pull origin
 ./build
+```
+
+To check proper installation 
+```
+gpio -v
+```
+### WiringPi User guide
+
+To get information about pin numbering on our respective Raspberry Pi version, we can use following command:
+```
+gpio readall
 ```
