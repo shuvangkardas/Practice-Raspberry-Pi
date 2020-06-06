@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    led = 17
+    led = 17;
     wiringPiSetup();
 
     pinMode(led,OUTPUT);
@@ -11,7 +11,7 @@ int main(void)
     {
         digitalWrite(led,HIGH);
         delay(500);
-        digitalWrite(led, LOW)
+        digitalWrite(led, LOW);
         delay(500);
     }
 }
