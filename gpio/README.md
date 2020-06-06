@@ -38,3 +38,11 @@ To get information about pin numbering on our respective Raspberry Pi version, w
 ```
 gpio readall
 ```
+Now, we should compile above C program with wiringPi library which is given as follows.
+```
+gcc -o gpio gpio.c -l wiringPi
+```
+he above command will create an executable file of name gpio. Then, use following command to execute above program.
+```
+sudo ./gpio
+```
