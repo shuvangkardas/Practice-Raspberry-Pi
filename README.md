@@ -49,6 +49,7 @@ Scroll down and select VNC > Yes.
 ## Few useful command 
 
 shutdown | sudo shutdown -h now
+RPi model | cat /sys/firmware/devicetree/base/model
 
 ## Install Python 3.8 on raspberry pi 
 As I installed Raspberry Pi default os. It has built in installation of python 2.7. I need to upgrade it. 
