@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    led = 17;
+    int led = 17;
     wiringPiSetup();
 
     pinMode(led,OUTPUT);
