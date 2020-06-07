@@ -46,3 +46,4 @@ he above command will create an executable file of name gpio. Then, use followin
 ```
 sudo ./gpio
 ```
+One this is mentioned that, wiringPi pin numbering is different than default RPi pin numbering. 
