@@ -1,8 +1,10 @@
 #include <wiringPi.h>
 
+
 int main(void)
 {
-    int led = 17;
+    // WiringPu pin number is different than default raspberry pi pin number
+    int led = 9;
     wiringPiSetup();
 
     pinMode(led,OUTPUT);
